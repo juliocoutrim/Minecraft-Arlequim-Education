@@ -21,7 +21,7 @@ const Index = () => {
             <img 
               src={logoArlequim} 
               alt="Arlequim Logo" 
-              className="absolute top-8 left-8 h-16 w-auto z-10"
+              className="absolute top-8 left-8 h-64 w-auto z-10"
             />
             <div className="relative container h-full flex flex-col justify-end pb-12 px-8">
               <h1 className="text-5xl font-bold text-foreground mb-4">
