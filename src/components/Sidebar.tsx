@@ -1,24 +1,16 @@
-import { Home, Clock, Sparkles, TrendingUp, RefreshCw, Star, Users, Gamepad2, Sword, Plane, Car, Trophy, Puzzle, Dumbbell } from "lucide-react";
+import { Home, Users, Gamepad2, Sword, Dumbbell } from "lucide-react";
 import { Link, useLocation } from "react-router-dom";
 import { cn } from "@/lib/utils";
 import { ScrollArea } from "@/components/ui/scroll-area";
 
 const mainSections = [
   { icon: Home, label: "Página Inicial", href: "/" },
-  { icon: Clock, label: "Recentes", href: "/recentes" },
-  { icon: Sparkles, label: "Novo", href: "/novo" },
-  { icon: TrendingUp, label: "Trending", href: "/trending" },
-  { icon: RefreshCw, label: "Atualizados", href: "/atualizados" },
-  { icon: Star, label: "Originais", href: "/originais" },
   { icon: Users, label: "Multiplayer", href: "/multiplayer" },
 ];
 
 const categories = [
   { icon: Gamepad2, label: "Ação", href: "/categoria/acao" },
   { icon: Sword, label: "Aventura", href: "/categoria/aventura" },
-  { icon: Car, label: "Corrida", href: "/categoria/corrida" },
-  { icon: Trophy, label: "Esportes", href: "/categoria/esportes" },
-  { icon: Puzzle, label: "Puzzle", href: "/categoria/puzzle" },
   { icon: Dumbbell, label: "Casual", href: "/categoria/casual" },
 ];
 
