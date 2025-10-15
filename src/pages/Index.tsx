@@ -3,6 +3,7 @@ import { Sidebar } from "@/components/Sidebar";
 import { GameGrid } from "@/components/GameGrid";
 import { featuredGames, newGames, trendingGames } from "@/data/games";
 import heroImage from "@/assets/hero-gaming.jpg";
+import logoArlequim from "@/assets/logo-arlequim.png";
 
 const Index = () => {
   return (
@@ -17,12 +18,17 @@ const Index = () => {
             style={{ backgroundImage: `url(${heroImage})` }}
           >
             <div className="absolute inset-0 bg-gradient-to-t from-background via-background/60 to-transparent" />
+            <img 
+              src={logoArlequim} 
+              alt="Arlequim Logo" 
+              className="absolute top-8 left-8 h-16 w-auto z-10"
+            />
             <div className="relative container h-full flex flex-col justify-end pb-12 px-8">
               <h1 className="text-5xl font-bold text-foreground mb-4">
-                Descubra Milhares de Jogos
+                Aprender nunca foi tão divertido!
               </h1>
               <p className="text-xl text-muted-foreground max-w-2xl">
-                Jogue gratuitamente os melhores jogos online diretamente no seu navegador
+                Jogue, crie e explore com a Arlequim no Minecraft Education! 🚀
               </p>
             </div>
           </section>
